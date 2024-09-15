@@ -20,7 +20,7 @@ async function main() {
 
 
 
-    const myBalane = web3.eth.getBalance("0x…");
+    const myBalane = web3.eth.getBalance("0xcE6A5235d6033341972782a15289277E85E5b305");
 
     console.log("My balance is :" , myBalane);
 
@@ -30,7 +30,7 @@ async function main() {
     console.log("1 ether is : ", response, "in wei")
 
     // Initialize a Wallet with a private key
-    const wallet = web3.eth.wallet.add("private key");
+    const wallet = web3.eth.wallet.add("0x50d349f5cf627d44858d6fcb6fbf15d27457d35c58ba2d5cfeaf455f25db5bec");
 
 
     console.log(wallet)
